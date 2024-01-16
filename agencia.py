@@ -7,7 +7,7 @@ class Agencia:
     def __init__(self, nome: str) -> None:
         self.__nome: str = nome
         self._carros: List[Carro] = []
-        self._transacoes: List[Transacao]
+        self._transacoes: List[Transacao] = []
     
     @property
     def nome(self) -> str:
