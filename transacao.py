@@ -8,3 +8,9 @@ class Transacao:
         self.carro = carro
         self.valor = valor
         self.data = data
+
+    def __str__(self) -> str:
+        return f"{self.cliente.nome} comprou {self.carro} por R${self.carro.preco:.2f}"
+    
+    def data_transacao(self) -> str:
+        return self.data.strftime("%d/%m/%Y %H:%M:%S")
