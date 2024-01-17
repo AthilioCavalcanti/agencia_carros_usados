@@ -45,5 +45,5 @@ class Carro:
         self._preco = novo_preco
 
     def __str__(self) -> str:
-        return f"{self.marca} {self.modelo}, {self.ano}, {self.cor}"
+        return f"{self.marca} {self.modelo}, {self.ano}, {self.cor}, Placa {self.placa}"
     
